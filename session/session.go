@@ -101,5 +101,5 @@ func DecryptSignedCookie(signedCookie, secretKeyBase, salt, signSalt string) (se
 // Rails 4.0 defaults
 const (
 	keyIterNum = 1000
-	keySize    = 64
+	keySize    = 32
 )
